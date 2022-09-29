@@ -1,0 +1,33 @@
+
+.screen-one{
+  min-height: 100vh;
+  h1{
+    text-align: center;
+    font-size: 5vw;
+    padding-top: 100px;
+    margin: 0;
+
+  }
+  h2{
+    max-width: 500px;
+    font-size: 3vw;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 100px;
+  }
+}
+.mySwiper{
+  height: 100vh;
+}
+.slider{
+  &-title{
+    color: #fff;
+    font-size: 3vw;
+  }
+  &-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+}
