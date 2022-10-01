@@ -15,13 +15,33 @@ a {
   box-sizing: border-box;
 }
 
+.wrap{
+  background: #41377e;
+}
 .container {
   max-width: 1440px;
   padding: 0 40px;
-  background: #41377e;
   min-height: 100vh;
+  margin: 0 auto;
 }
-
+.swiper-slide{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+.mobile-screen{
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.mobile-title{
+  font-size: 10vw;
+  color: #fff;
+}
 
 
 

@@ -23,11 +23,15 @@
   &-title{
     color: #fff;
     font-size: 3vw;
+    margin-bottom: 50px;
   }
   &-img{
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    img{
+      max-width: 1000px;
+    }
   }
 }

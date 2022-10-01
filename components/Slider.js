@@ -38,6 +38,14 @@ const Slider = () => {
             </SwiperSlide>
             <SwiperSlide>
                 <div className='slider-title'>
+                    Чтобы работа приносила удовольствие
+                </div>
+                <div className='slider-img'>
+                    <img src="./images/gang.jpeg" alt="deal"/>
+                </div>
+            </SwiperSlide>
+            <SwiperSlide>
+                <div className='slider-title'>
                     Быть позитивным даже в самой страшной ситуации
                 </div>
                 <div className='slider-img'>
